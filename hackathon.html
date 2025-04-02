@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ednah Ochwoga | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Section */
+        .hero {
+            background: #2d3436;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Skills Section */
+        .skills-section {
+            padding: 4rem 0;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-category {
+            color: #0984e3;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: #2d3436;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .contact-links a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: opacity 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Ednah Ochwoga</h1>
+            <p>Software Engineer & Digital Solutions Expert</p>
+            <p class="experience">5 years of transforming ideas into digital reality</p>
+        </div>
+    </header>
+
+    <section class="skills-section">
+        <div class="container">
+            <h2>Technical & Business Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-category">Core Development</div>
+                    <ul>
+                        <li>Python Development</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Network Architecture</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-category">Business Innovation</div>
+                    <ul>
+                        <li>Digital Marketing Strategy</li>
+                        <li>Startup Development</li>
+                        <li>UI/UX Design Principles</li>
+                        <li>Brand Identity Creation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Let's Create Something Remarkable</h2>
+            <div class="contact-links">
+                <a href="https://www.facebook.com/ednah.kemuma.12" target="_blank">
+                    📘 Facebook
+                </a>
+                <a href="https://www.instagram.com/ednah48" target="_blank">
+                    📸 Instagram
+                </a>
+                <a href="mailto:nyamusiednah9@gmail.com">
+                    ✉ Email Me
+                </a>
+            </div>
+            <p style="margin-top: 1.5rem; opacity: 0.9;">
+                Based in Nairobi · Open for collaborations worldwide
+            </p>
+        </div>
+    </section>
+</body>
+</html>
